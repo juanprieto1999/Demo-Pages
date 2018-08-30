@@ -149,6 +149,12 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ANDROID.png" />
+    <BundleResource Include="Resources\iq.png" />
+    <BundleResource Include="Resources\Laravel.png" />
+    <BundleResource Include="Resources\Apple.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\Demo1\Demo1.projitems" Label="Shared" />
 </Project>

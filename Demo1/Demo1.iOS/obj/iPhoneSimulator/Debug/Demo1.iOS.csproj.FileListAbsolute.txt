@@ -51,3 +51,6 @@
 /Users/vivelabtunja23/Desktop/Demo Pages/Demo1/Demo1.iOS/obj/iPhoneSimulator/Debug/Demo1.iOS.csproj.CoreCompileInputs.cache
 /Users/vivelabtunja23/Desktop/Demo Pages/Demo1/Demo1.iOS/obj/iPhoneSimulator/Debug/Demo1.iOS.exe
 /Users/vivelabtunja23/Desktop/Demo Pages/Demo1/Demo1.iOS/obj/iPhoneSimulator/Debug/Demo1.iOS.pdb
+/Users/vivelabtunja23/Desktop/Demo Pages/Demo1/Demo1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.4/optimized/ANDROID.png
+/Users/vivelabtunja23/Desktop/Demo Pages/Demo1/Demo1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.4/optimized/iq.png
+/Users/vivelabtunja23/Desktop/Demo Pages/Demo1/Demo1.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.4/optimized/Laravel.png

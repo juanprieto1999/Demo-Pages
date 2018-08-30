@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Demo1.Extensiones_De_Marcado">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Demo1.Extensiones_De_Marcado">
 <ContentPage.Resources>
         <ResourceDictionary> 
             <LayoutOptions x:Key="HorOpt"
@@ -16,11 +18,11 @@
                  150
             </x:Double> 
             
-            <Style x:Key="StyleBtn1" TargetType="Button">
-            <!--<Setter Property="HorizontalOptions" Value="{StaticResourse HorOpt}"/>
-            <Setter Property="VerticalOptions" Value="{StaticResourse VerOpt}"/>
-            <Setter Property="Rotation" Value="50"/>
-                -->
+            <Style x:Key="boton1" TargetType="Button">
+            <Setter Property="HorizontalOptions" Value="{StaticResource HorOpt}"></Setter>
+            <Setter Property="VerticalOptions" Value="{StaticResource VerOpt}"></Setter>
+            <Setter Property="Rotation" Value="50"></Setter>
+               
 
                 
             </Style>
@@ -42,7 +44,7 @@
                     BorderWidth="3"
                     TextColor="Red"
                     FontSize="24"
-                            
+                    Style="{StaticResource boton1}"        
                     />
             <Button Text="Pop"
                     HorizontalOptions="Center"

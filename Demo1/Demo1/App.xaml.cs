@@ -10,12 +10,12 @@ namespace Demo1
         public App()
         {
             InitializeComponent();
-
-           //MainPage = new NavigationPage(new DemoNavigationPage());
-           var navigetionpage = new NavigationPage(new DemoNavigationPage());
-            navigetionpage.BarBackgroundColor = Color.Blue;
-            navigetionpage.BarTextColor = Color.White;
-            MainPage = navigetionpage;
+            MainPage = new DemoCarousel();
+            //MainPage = new NavigationPage(new DemoCarousel());
+           //var navigetionpage = new NavigationPage(new DemoNavigationPage());
+           // navigetionpage.BarBackgroundColor = Color.Blue;
+            //navigetionpage.BarTextColor = Color.White;
+           // MainPage = navigetionpage;
 
 
         }
