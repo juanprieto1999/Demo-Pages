@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{2E2A230F-D9DB-4B33-9104-7E58000B3F6A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Demo1/Page2.xaml.cs">
+    <Files>
+      <File FileName="Demo1/Page2.xaml" Line="10" Column="29" />
+      <File FileName="Demo1/Page3.xaml" Line="6" Column="1" />
+      <File FileName="Demo1/Page3.xaml.cs" Line="11" Column="10" />
+      <File FileName="Demo1/Page2.xaml.cs" Line="17" Column="10" />
+      <File FileName="Demo1/App.xaml" Line="10" Column="33" NotebookId="1" />
+      <File FileName="Demo1/MainPage.xaml.cs" Line="8" Column="16" NotebookId="1" />
+      <File FileName="Demo1/App.xaml.cs" Line="15" Column="74" NotebookId="1" />
+      <File FileName="Demo1/Extensiones_De_Marcado.xaml" Line="18" Column="10" NotebookId="1" />
+      <File FileName="Demo1/DemoNavigationPage.xaml" Line="13" Column="20" NotebookId="1" />
+      <File FileName="Demo1/DemoNavigationPage.xaml.cs" Line="16" Column="10" NotebookId="1" />
+      <File FileName="Demo1.iOS/Main.cs" Line="17" Column="1" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Demo1.Android PreferredExecutionTarget="8bd24332-254b-4c8b-affd-162b81386828" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Demo1.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E94278E1-4CE6-4339-828F-57E2BEDC6F9E" />
+  <MonoDevelop.Ide.ItemProperties.Demo1 FirstBuild="True" />
+</Properties>

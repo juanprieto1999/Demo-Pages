@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Demo1.Extensiones_De_Marcado">
+<ContentPage.Resources>
+        <ResourceDictionary> 
+            <LayoutOptions x:Key="HorOpt"
+                           Alignment="Start"/> 
+            <LayoutOptions x:Key="VerOpt"
+                           Alignment="Center"
+                           Expands="true"/> 
+            <x:Double
+                x:Key="FontSize">
+                 50
+            </x:Double>
+            <x:Double
+                x:Key="Rot">
+                 150
+            </x:Double> 
+            
+            <Style x:Key="StyleBtn1" TargetType="Button">
+            <!--<Setter Property="HorizontalOptions" Value="{StaticResourse HorOpt}"/>
+            <Setter Property="VerticalOptions" Value="{StaticResourse VerOpt}"/>
+            <Setter Property="Rotation" Value="50"/>
+                -->
+
+                
+            </Style>
+
+
+            <OnPlatform x:Key="Plataforma" x:TypeArguments="Color">
+             <On Platform="iOS" Value="Green"></On>
+             <On Platform="Android" Value="Blue"></On>
+
+                
+            </OnPlatform>
+            
+            
+        </ResourceDictionary>     
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Clasica"
+                    BorderWidth="3"
+                    TextColor="Red"
+                    FontSize="24"
+                            
+                    />
+            <Button Text="Pop"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    BorderWidth="3"
+                    Rotation="-15"
+                    TextColor="Red"
+                    FontSize="{StaticResource FontSize}"
+            />
+             <Button Text="Rock"
+                    HorizontalOptions="Center"
+                    VerticalOptions="CenterAndExpand"
+                    BorderWidth="3"
+                    Rotation="{StaticResource Rot}"
+                    TextColor="{StaticResource Plataforma}"
+                     
+            />
+
+
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
